@@ -1,4 +1,5 @@
 # oplaydo1
-Part 1: Clone &amp; Build
 
-This repository holds the first part of a tutorial.
+This repository holds the project described in the tutorial here:
+
+https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:developer_manual:plugins:learning
