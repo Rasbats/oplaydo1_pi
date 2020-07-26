@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/CMakeLists.txt
+  CMake does not need to re-run because C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/generate.stamp is up-to-date.
+  oplaydo1_pi.cpp
+  icons.cpp
+  oplaydo1gui.cpp
+  oplaydo1gui_impl.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  Generating Code...
+c:\plugins - wxwidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.cpp(183): warning C4700: uninitialized local variable 'lat1' used
+c:\plugins - wxwidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.cpp(183): warning C4700: uninitialized local variable 'lon1' used
+c:\plugins - wxwidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.cpp(183): warning C4700: uninitialized local variable 'lat2' used
+c:\plugins - wxwidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.cpp(183): warning C4700: uninitialized local variable 'lon2' used
+     Creating library C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/Release/oplaydo1_pi.lib and object C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/Release/oplaydo1_pi.exp
+  oplaydo1_pi.vcxproj -> C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\Release\oplaydo1_pi.dll

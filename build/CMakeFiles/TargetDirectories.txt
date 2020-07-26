@@ -1,0 +1,8 @@
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1_pi.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/INSTALL.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-po-update.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-pot-update.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-i18n.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/PACKAGE.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/ALL_BUILD.dir
+C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/ZERO_CHECK.dir
