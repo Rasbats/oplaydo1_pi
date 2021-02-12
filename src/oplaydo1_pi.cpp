@@ -107,7 +107,7 @@ oplaydo1_pi::~oplaydo1_pi(void)
 
 int oplaydo1_pi::Init(void)
 {
-      AddLocaleCatalog( _T("opencpn-oplaydo1_pi") );
+      AddLocaleCatalog( PLUGIN_CATALOG_NAME );
 
       // Set some default private member parameters
       m_route_dialog_x = 0;
