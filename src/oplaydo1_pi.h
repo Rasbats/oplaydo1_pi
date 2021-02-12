@@ -42,8 +42,7 @@
 
 #include "version.h"
 
-#define     MY_API_VERSION_MAJOR    1
-#define     MY_API_VERSION_MINOR    7
+
 
 class Dlg;
 
@@ -53,7 +52,7 @@ class Dlg;
 
 #define CALCULATOR_TOOL_POSITION    -1          // Request default positioning of toolbar tool
 
-class oplaydo1_pi : public opencpn_plugin_17
+class oplaydo1_pi : public opencpn_plugin_116
 {
 public:
       oplaydo1_pi(void *ppimgr);

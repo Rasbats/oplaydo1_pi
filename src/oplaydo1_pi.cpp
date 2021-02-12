@@ -34,9 +34,12 @@
 #include "oplaydo1_pi.h"
 #include "oplaydo1gui_impl.h"
 #include "oplaydo1gui.h"
+#include "ocpn_plugin.h"
 
 
-class oplaydo1_pi;
+#include "version.h"
+#include "wxWTranslateCatalog.h"
+
 
 // the class factories, used to create and destroy instances of the PlugIn
 
@@ -65,10 +68,33 @@ extern "C" DECL_EXP void destroy_pi(opencpn_plugin* p)
 //---------------------------------------------------------------------------------------------------------
 
 oplaydo1_pi::oplaydo1_pi(void *ppimgr)
-      :opencpn_plugin_17 (ppimgr)
+      :opencpn_plugin_116 (ppimgr)
 {
       // Create the PlugIn icons
       initialize_images();
+      
+      xFileName fn;
+
+    auto path = GetPluginDataDir("oplaydo1_pi");
+    fn.SetPath(path);
+    fn.AppendDir("data");
+    fn.SetFullName("oplaydo1_pi_panel_icon.png");
+
+    path = fn.GetFullPath();
+
+    wxInitAllImageHandlers();
+
+    wxLogDebug(wxString("Using icon path: ") + path);
+    if (!wxImage::CanRead(path)) {
+        wxLogDebug("Initiating image handlers.");
+        wxInitAllImageHandlers();
+    }
+    wxImage panelIcon(path);
+    if (panelIcon.IsOk())
+        m_panelBitmap = wxBitmap(panelIcon);
+    else
+        wxLogWarning("oplaydo1 panel icon has NOT been loaded");
+      
 	  m_bShowoplaydo1 = false;
 }
 
@@ -98,10 +124,18 @@ int oplaydo1_pi::Init(void)
       LoadConfig();
 
       //    This PlugIn needs a toolbar icon, so request its insertion
-	if(m_boplaydo1ShowIcon)
+	if(m_boplaydo1ShowIcon){
+#ifdef PLUGIN_USE_SVG
+        m_leftclick_tool_id = InsertPlugInToolSVG(_T( "oplaydo1" ),
+            _svg_oplaydo1, _svg_oplaydo1, _svg_oplaydo1_toggled,
+            wxITEM_CHECK, _("oplaydo1"), _T( "" ), NULL,
+            CALCULATOR_TOOL_POSITION, 0, this);
+#else
       m_leftclick_tool_id  = InsertPlugInTool(_T(""), _img_oplaydo1, _img_oplaydo1, wxITEM_CHECK,
             _("oplaydo1"), _T(""), NULL,
              CALCULATOR_TOOL_POSITION, 0, this);
+#endif
+    }    
 
       m_pDialog = NULL;
 
@@ -143,12 +177,12 @@ bool oplaydo1_pi::DeInit(void)
 
 int oplaydo1_pi::GetAPIVersionMajor()
 {
-      return MY_API_VERSION_MAJOR;
+      return OCPN_API_VERSION_MAJOR;
 }
 
 int oplaydo1_pi::GetAPIVersionMinor()
 {
-      return MY_API_VERSION_MINOR;
+      return OCPN_API_VERSION_MINOR;
 }
 
 int oplaydo1_pi::GetPlugInVersionMajor()
@@ -174,12 +208,12 @@ wxString oplaydo1_pi::GetCommonName()
 
 wxString oplaydo1_pi::GetShortDescription()
 {
-      return _("oplaydo1 Positions");
+      return _(PLUGIN_SHORT_DESCRIPTION);
 }
 
 wxString oplaydo1_pi::GetLongDescription()
 {
-      return _("Creates GPX file with oplaydo1 Positions");
+      return _(PLUGIN_LONG_DESCRIPTION);
 }
 
 int oplaydo1_pi::GetToolbarToolCount(void)

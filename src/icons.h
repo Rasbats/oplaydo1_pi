@@ -12,4 +12,9 @@ extern void initialize_images(void);
 extern wxBitmap *_img_oplaydo1;
 extern wxBitmap *_img_oplaydo1_pi;
 
+#ifdef PLUGIN_USE_SVG
+extern wxString _svg_oplaydo1;
+extern wxString _svg_oplaydo1_toggled;
+#endif
+
 #endif /* ICONS.H */
