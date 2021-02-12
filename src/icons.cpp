@@ -3,6 +3,7 @@
 #ifndef WX_PRECOMP
 #	include <wx/wx.h>
 #endif
+#include <wx/filename.h>
 #include <wx/mstream.h>
 #include "icons.h"
 
