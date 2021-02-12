@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{77C80AB3-9922-3339-9118-486F6A40DF22}</ProjectGuid>
+    <ProjectGuid>{3FA3016C-24A7-30A1-B30D-FEAE19E2B58A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\include;C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src;C:\Users\Mike\Sources\wxWidgets\lib\vc_dll\mswu;C:\Users\Mike\Sources\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -72,7 +72,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -84,7 +84,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\include;C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src;C:\Users\Mike\Sources\wxWidgets\lib\vc_dll\mswu;C:\Users\Mike\Sources\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -94,7 +94,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -106,7 +106,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\include;C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src;C:\Users\Mike\Sources\wxWidgets\lib\vc_dll\mswu;C:\Users\Mike\Sources\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +116,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,7 +128,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\include;C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src;C:\Users\Mike\Sources\wxWidgets\lib\vc_dll\mswu;C:\Users\Mike\Sources\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -138,7 +138,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,7 +149,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\671b9d0818862b140e44d24e443c6c18\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\bb491fa62728620f6a0f39603b6a3af4\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -160,8 +160,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/671b9d0818862b140e44d24e443c6c18/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -173,8 +173,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/671b9d0818862b140e44d24e443c6c18/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -186,8 +186,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/671b9d0818862b140e44d24e443c6c18/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -199,19 +199,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/671b9d0818862b140e44d24e443c6c18/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\ZERO_CHECK.vcxproj">
-      <Project>{9195740E-D843-3B08-8544-EBAA38B5E348}</Project>
+    <ProjectReference Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\ZERO_CHECK.vcxproj">
+      <Project>{31DC8D64-F9F6-3398-BB80-1EC4AF89294E}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\ALL_BUILD.vcxproj">
-      <Project>{33927024-2EB3-3575-B60C-7802C3F7F22B}</Project>
+    <ProjectReference Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\ALL_BUILD.vcxproj">
+      <Project>{C66EC456-916E-30D9-A605-E78900A91516}</Project>
       <Name>ALL_BUILD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

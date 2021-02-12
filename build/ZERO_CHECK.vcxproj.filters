@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\671b9d0818862b140e44d24e443c6c18\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\bb491fa62728620f6a0f39603b6a3af4\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{1738114D-AA2D-3446-8FB3-5CD51EE4F3B9}</UniqueIdentifier>
+      <UniqueIdentifier>{F0B9B19D-8DD4-383C-A663-9D9D15A21FCE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

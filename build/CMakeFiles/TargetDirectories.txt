@@ -1,8 +1,10 @@
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1_pi.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/INSTALL.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-po-update.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-pot-update.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/oplaydo1-i18n.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/PACKAGE.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/ALL_BUILD.dir
-C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/oplaydo1_pi.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/INSTALL.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/oplaydo1-po-update.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/oplaydo1-pot-update.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/oplaydo1-i18n.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/create_resources_dir.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/codesign.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/PACKAGE.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mike/Documents/GitHub/oplaydo1_pi/build/CMakeFiles/ZERO_CHECK.dir

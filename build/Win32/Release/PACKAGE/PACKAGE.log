@@ -1,5 +1,0 @@
-﻿  CPack: Create package using NSIS
-  CPack: Install projects
-  CPack: - Install project: oplaydo1_pi
-  CPack: Create package
-  CPack: - package: C:/plugins - wxWidgets 3.1.2 - 5.0.0/oplaydo1_pi/build/oplaydo1_pi-0.1-win32.exe generated.

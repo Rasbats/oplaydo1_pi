@@ -1,57 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1_pi.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1_pi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\icons.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\icons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1gui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1gui_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\tinyxml.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\tinyxmlerror.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxmlerror.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\tinyxmlparser.cpp">
+    <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxmlparser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1_pi.h">
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1_pi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\icons.h">
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\icons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui.h">
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1gui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\oplaydo1gui_impl.h">
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\oplaydo1gui_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\ocpn_plugin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\src\tinyxml.h">
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D543458A-5E6A-363A-AF27-59261BDC49F9}</UniqueIdentifier>
+      <UniqueIdentifier>{29BBC5FF-267C-3C58-9926-FBC3443CD6CD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FDD90B9D-6FB0-3EB3-9D6C-C5EA9E5F6DF8}</UniqueIdentifier>
+      <UniqueIdentifier>{B11342BC-2137-31C5-89FE-F1BB83E02193}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -89,6 +89,8 @@ public:
       void SetCalculatorDialogHeight    (int x){ m_route_dialog_height = x;};      
 	  void Onoplaydo1DialogClose();
 
+	  wxBitmap m_panelBitmap;
+
 private:
       
 	  void OnClose( wxCloseEvent& event );

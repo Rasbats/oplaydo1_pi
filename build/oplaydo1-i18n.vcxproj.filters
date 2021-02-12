@@ -1,83 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\ca.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\ca.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\cs.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\cs.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\da.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\da.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\de.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\de.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\el.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\el.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\es.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\es.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\et.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\et.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\fi.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\fi.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\fr.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\fr.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\gl.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\gl.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\hu.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\hu.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\it.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\it.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\ja.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\ja.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\nb.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\nb.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\nl.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\nl.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\pl.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\pl.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\pt.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\pt.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\ru.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\ru.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\sv.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\sv.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\tr.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\tr.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\vi.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\vi.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\d1778cc1e0d8b5add9129123f3e1d4e3\zh.mo.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\62f09411caadf68b2da2641f7d752314\zh.mo.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\671b9d0818862b140e44d24e443c6c18\oplaydo1-i18n.rule">
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\bb491fa62728620f6a0f39603b6a3af4\oplaydo1-i18n.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\plugins - wxWidgets 3.1.2 - 5.0.0\oplaydo1_pi\build\CMakeFiles\oplaydo1-i18n" />
+    <None Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\oplaydo1-i18n" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{1738114D-AA2D-3446-8FB3-5CD51EE4F3B9}</UniqueIdentifier>
+      <UniqueIdentifier>{F0B9B19D-8DD4-383C-A663-9D9D15A21FCE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

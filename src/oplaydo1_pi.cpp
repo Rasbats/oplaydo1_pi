@@ -197,7 +197,7 @@ int oplaydo1_pi::GetPlugInVersionMinor()
 
 wxBitmap *oplaydo1_pi::GetPlugInBitmap()
 {
-      return _img_oplaydo1_pi;
+      return &m_panelBitmap;
 }
 
 wxString oplaydo1_pi::GetCommonName()
