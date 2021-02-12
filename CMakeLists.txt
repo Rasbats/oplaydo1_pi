@@ -153,11 +153,15 @@ set(SRCS
 
 add_definitions(-DPLUGIN_USE_SVG)
 
+set(OCPNHDRS ocpninclude/ocpn_plugin.h ocpninclude/pluginmanager.h ocpninclude/TexFont.h)
+
+include_directories(BEFORE ${PROJECT_SOURCE_DIR}/ocpninclude)
+include_directories(BEFORE ${PROJECT_SOURCE_DIR}/ocpnsrc/glu/include)
+
 add_library(${PACKAGE_NAME} SHARED ${SRCS})
 
 add_definitions(-DTIXML_USE_STL)
 
-set(OCPNHDRS ocpninclude/ocpn_plugin.h ocpninclude/pluginmanager.h ocpninclude/TexFont.h)
 
 
 ##
