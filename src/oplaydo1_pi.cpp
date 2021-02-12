@@ -36,7 +36,7 @@
 #include "oplaydo1gui.h"
 #include "ocpn_plugin.h"
 
-
+#include "wx/filename.h"
 #include "version.h"
 #include "wxWTranslateCatalog.h"
 
@@ -73,7 +73,7 @@ oplaydo1_pi::oplaydo1_pi(void *ppimgr)
       // Create the PlugIn icons
       initialize_images();
       
-      xFileName fn;
+      wxFileName fn;
 
     auto path = GetPluginDataDir("oplaydo1_pi");
     fn.SetPath(path);
