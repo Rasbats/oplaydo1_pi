@@ -83,7 +83,7 @@ set(USE_LOCAL_GLU TRUE)
 # Prefer libGL.so to libOpenGL.so, see CMP0072
 set(OpenGL_GL_PREFERENCE "LEGACY")
 # Don't use local version of GLU library
-#set(USE_LOCAL_GLU FALSE)
+set(USE_LOCAL_GLU FALSE)
 
 option(USE_GL "Enable OpenGL support" ON)
 message(STATUS "${CMLOC}USE_GL: ${USE_GL}")
