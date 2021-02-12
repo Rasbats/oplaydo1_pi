@@ -149,6 +149,7 @@ set(SRCS
         src/tinyxmlerror.cpp
         src/tinyxmlparser.cpp
         src/tinyxml.h
+        api-16/ocpn_plugin.h
 )
 
 add_definitions(-DPLUGIN_USE_SVG)
