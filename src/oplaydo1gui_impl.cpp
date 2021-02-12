@@ -177,7 +177,11 @@ bool Dlg::GetPositions()
 	double lat1, lon1;
 	double lat2, lon2;
 
-	
+	if (!this->m_textCtrlStartLat->GetValue().ToDouble(&lat1)){ lat1 = 0.0; }
+	if (!this->m_textCtrlStartLon->GetValue().ToDouble(&lon1)){ lon1 = 0.0; }
+
+	if (!this->m_textCtrlFinishLat->GetValue().ToDouble(&lat2)){ lat2 = 0.0; }
+	if (!this->m_textCtrlFinishLon->GetValue().ToDouble(&lon2)){ lon2 = 0.0; }
 
 	//Validate input ranges
 		if (fabs(lat1)>90||fabs(lon1)>180||fabs(lat2)>90||fabs(lon2)>180){
@@ -186,7 +190,13 @@ bool Dlg::GetPositions()
 			return false;
 		}
 
-	
+	m_position.lat = m_textCtrlStartLat->GetValue();
+	m_position.lon = m_textCtrlStartLon->GetValue();
+
+	myPositions.push_back(m_position);
+
+	m_position.lat = m_textCtrlFinishLat->GetValue();
+	m_position.lon = m_textCtrlFinishLon->GetValue();
 
 	myPositions.push_back(m_position);
 
