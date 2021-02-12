@@ -149,7 +149,6 @@ set(SRCS
         src/tinyxmlerror.cpp
         src/tinyxmlparser.cpp
         src/tinyxml.h
-        api-16/ocpn_plugin.h
 )
 
 add_definitions(-DPLUGIN_USE_SVG)
@@ -157,6 +156,9 @@ add_definitions(-DPLUGIN_USE_SVG)
 add_library(${PACKAGE_NAME} SHARED ${SRCS})
 
 add_definitions(-DTIXML_USE_STL)
+
+set(OCPNHDRS ocpninclude/ocpn_plugin.h ocpninclude/pluginmanager.h ocpninclude/TexFont.h)
+
 
 ##
 ## ----- Change above to match project requirements ----- ##
