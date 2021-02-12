@@ -45,7 +45,7 @@ set(OCPN_API_VERSION_MAJOR "1")
 set(OCPN_API_VERSION_MINOR "16")
 set(TP_COMMENT "  * Release for O5 using CI")
 
-set(PARENT "mikerossiter")
+set(PARENT "opencpn")
 
 # The next line allows for setting up your own local webserver with git on it for testing purposes, the default is github.com
 #set(GIT_REPOSITORY_SERVER "github.com")
@@ -59,8 +59,8 @@ set(ALPHA "alpha") # Standard Repos
 #set(CLOUDSMITH_BASE_REPOSITORY "oplaydo1_pi")
 set(CLOUDSMITH_BASE_REPOSITORY "oplaydo1")
 # Set the following to use OpenCPN cloudsmith repositories instead of own repositories
-set(CLOUDSMITH_USER "mikerossiter")
-#set(CLOUDSMITH_USER "mike_rossiter")
+set(CLOUDSMITH_USER "mike-rossiter")
+#set(CLOUDSMITH_USER "mike-rossiter")
 
 set(XML_INFO_URL "https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:plugins:safety:odraw1.6_pi")
 set(XML_SUMMARY ${SHORT_DESCRIPTION})
