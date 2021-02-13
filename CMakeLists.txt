@@ -86,7 +86,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(OpenGL_GL_PREFERENCE "LEGACY")
 # Don't use local version of GLU library
 # uncommented the next line to avoid problems with PluginConfigure.cmake
-set(USE_LOCAL_GLU FALSE)					
+#set(USE_LOCAL_GLU FALSE)					
 
 option(USE_GL "Enable OpenGL support" ON)
 message(STATUS "${CMLOC}USE_GL: ${USE_GL}")

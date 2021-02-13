@@ -12,8 +12,9 @@
 m_dialog::m_dialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )
 {
 	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
-	this->Enable( false );
+	
 
+	wxFlexGridSizer* fgSizer1;
 	fgSizer1 = new wxFlexGridSizer( 3, 3, 0, 0 );
 	fgSizer1->SetFlexibleDirection( wxBOTH );
 	fgSizer1->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
@@ -28,9 +29,9 @@ m_dialog::m_dialog( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	m_staticTextLat->Wrap( -1 );
 	fgSizer1->Add( m_staticTextLat, 0, wxALL, 5 );
 
-	m_staticTextLat1 = new wxStaticText( this, wxID_ANY, wxT("Longitude (E/W, Use +/-)"), wxDefaultPosition, wxDefaultSize, 0 );
-	m_staticTextLat1->Wrap( -1 );
-	fgSizer1->Add( m_staticTextLat1, 0, wxALL|wxEXPAND, 5 );
+	m_staticTextLon = new wxStaticText( this, wxID_ANY, wxT("Longitude (E/W, Use +/-)"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticTextLon->Wrap( -1 );
+	fgSizer1->Add( m_staticTextLon, 0, wxALL|wxEXPAND, 5 );
 
 	m_staticline4 = new wxStaticLine( this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxLI_HORIZONTAL );
 	fgSizer1->Add( m_staticline4, 0, wxEXPAND | wxALL, 5 );
@@ -82,7 +83,6 @@ m_dialog::m_dialog( wxWindow* parent, wxWindowID id, const wxString& title, cons
 
 	this->SetSizer( fgSizer1 );
 	this->Layout();
-	fgSizer1->Fit( this );
 
 	this->Centre( wxBOTH );
 
