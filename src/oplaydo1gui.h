@@ -1,12 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////
-// C++ code generated with wxFormBuilder (version Jun 17 2015)
+// C++ code generated with wxFormBuilder (version Oct 26 2018)
 // http://www.wxformbuilder.org/
 //
-// PLEASE DO "NOT" EDIT THIS FILE!
+// PLEASE DO *NOT* EDIT THIS FILE!
 ///////////////////////////////////////////////////////////////////////////
 
-#ifndef __OPLAYDO1GUI_H__
-#define __OPLAYDO1GUI_H__
+#pragma once
 
 #include <wx/artprov.h>
 #include <wx/xrc/xmlres.h>
@@ -18,6 +17,9 @@
 #include <wx/settings.h>
 #include <wx/statline.h>
 #include <wx/textctrl.h>
+#include <wx/bitmap.h>
+#include <wx/image.h>
+#include <wx/icon.h>
 #include <wx/button.h>
 #include <wx/sizer.h>
 #include <wx/dialog.h>
@@ -28,14 +30,14 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// Class m_dialog
 ///////////////////////////////////////////////////////////////////////////////
-class m_dialog : public wxDialog 
+class m_dialog : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxStaticText* m_staticTextLocation;
 		wxStaticText* m_staticTextLat;
-		wxStaticText* m_staticTextLon;
+		wxStaticText* m_staticTextLat1;
 		wxStaticLine* m_staticline4;
 		wxStaticLine* m_staticline5;
 		wxStaticLine* m_staticline6;
@@ -49,18 +51,18 @@ class m_dialog : public wxDialog
 		wxStaticLine* m_staticline2;
 		wxStaticLine* m_staticline3;
 		wxStaticLine* m_staticline7;
-		wxButton* m_buttonGenerate;
 		wxStaticLine* m_staticline8;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void OnGenerate( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		m_dialog( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 375,190 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+		wxFlexGridSizer* fgSizer1;
+		wxButton* m_buttonGenerate;
+
+		m_dialog( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER );
 		~m_dialog();
-	
+
 };
 
-#endif //__OPLAYDO1GUI_H__

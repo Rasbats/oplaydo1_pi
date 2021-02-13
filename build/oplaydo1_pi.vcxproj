@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;PLUGIN_USE_SVG;TIXML_USE_STL;CMAKE_INTDIR=\"Debug\";oplaydo1_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,7 +126,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -144,10 +144,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;PLUGIN_USE_SVG;TIXML_USE_STL;CMAKE_INTDIR=\"Release\";oplaydo1_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -169,7 +169,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Async</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -188,10 +188,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;PLUGIN_USE_SVG;TIXML_USE_STL;CMAKE_INTDIR=\"MinSizeRel\";oplaydo1_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,7 +213,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;PLUGIN_USE_SVG;TIXML_USE_STL;CMAKE_INTDIR=\"RelWithDebInfo\";oplaydo1_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -323,6 +323,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxmlerror.cpp" />
     <ClCompile Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxmlparser.cpp" />
     <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxml.h" />
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\gl.h" />
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\gl_private.h" />
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\glext.h" />
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\glu.h" />
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16\ocpn_plugin.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\ZERO_CHECK.vcxproj">

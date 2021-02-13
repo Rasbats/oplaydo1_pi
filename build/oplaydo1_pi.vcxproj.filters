@@ -39,6 +39,21 @@
     <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src\tinyxml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\gl_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\glext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL\glu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16\ocpn_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Mike\Documents\GitHub\oplaydo1_pi\CMakeLists.txt" />

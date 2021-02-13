@@ -1,6 +1,10 @@
 # ---------------------------------------------------------------------------
 # Frontend2 Author:      jongough aka. Jon Gough Copyright: License:     wxWidgets License
 # ---------------------------------------------------------------------------
+#-----------------------------------------------------------------------------
+# Frontend2: v1.0.149.0    Frontend2 Author: Jon Gough  
+# ---------------------------------------------------------------------------
+
 
 ## ----- When changing this file do NOT change the order in which sections occur        ----- ##
 ## ----- Changes should only be made between the section blocks that identify where     ----- ##
@@ -78,13 +82,11 @@ option(PLUGIN_USE_SVG "Use SVG graphics" ON)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# Use local version of GLU library
-set(USE_LOCAL_GLU TRUE)
 # Prefer libGL.so to libOpenGL.so, see CMP0072
 set(OpenGL_GL_PREFERENCE "LEGACY")
 # Don't use local version of GLU library
 # uncommented the next line to avoid problems with PluginConfigure.cmake
-#set(USE_LOCAL_GLU FALSE)					
+set(USE_LOCAL_GLU FALSE)					
 
 option(USE_GL "Enable OpenGL support" ON)
 message(STATUS "${CMLOC}USE_GL: ${USE_GL}")
@@ -102,25 +104,19 @@ message(STATUS "${CMLOC}Build type: ${CMAKE_BUILD_TYPE}")
 project(${PACKAGE})
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake;")
 
+##=============================================================
 include("PluginSetup")
-
-##
+##=============================================================
 ## ----- The above is used to setup standard variables that are required by the CMAKE process - do not remove ----- ##
-##
-
-##
 ## ----- Modify section below if there are special requirements for the plugin ----- ##
 ##
 
-set(CMAKE_VERBOSE_MAKEFILE "Activate verbose mode for make files" ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 option(Plugin_CXX11 "Use c++11" OFF)
 
 ##
 ## ----- Modify section above if there are special requirements for the plugin ----- ##
-##
-
-##
 ## ----- do not change next section - needed to configure build process ----- ##
 ##
 
@@ -128,13 +124,20 @@ include("PluginConfigure")
 
 ##
 ## ----- do not change section above - needed to configure build process ----- ##
-##
-
-#
-# ----- Change below to match project requirements for source, headers, etc. ----- ##
-#
+## ----- Change below to match project requirements for source, headers, etc. ----- ##
 
 add_definitions(-DUSE_S57)
+
+# From master branch - is this working? necessary?
+IF(PLUGIN_USE_SVG)
+    MESSAGE(STATUS "${CMLOC}SVG support enabled...")
+    IF(NOT QT_ANDROID)
+        ADD_DEFINITIONS(-DPLUGIN_USE_SVG)
+    ENDIF(NOT QT_ANDROID)
+ENDIF(PLUGIN_USE_SVG)
+
+#======== Below from cmakelists.txt  climatology_pi
+# ----Remember to Add your project Set(SRCS and set(HDRS  etc..
 
 set(SRCS
 		src/oplaydo1_pi.h
@@ -148,34 +151,42 @@ set(SRCS
 		src/tinyxml.cpp
         src/tinyxmlerror.cpp
         src/tinyxmlparser.cpp
-        src/tinyxml.h
+        src/tinyxml.h		
 )
+SET(LIBHDRS						
+			include/GL/gl.h
+			include/GL/gl_private.h
+			include/GL/glext.h
+			include/GL/glu.h
+            api-16/ocpn_plugin.h			
+)
+##=============================================================
+# Modify/configure 'Include' Directories below for the Plugin
+##=============================================================
 
-add_definitions(-DPLUGIN_USE_SVG)
+#include_directories(BEFORE ${PROJECT_SOURCE_DIR}/src/plugingl)
+#include_directories(BEFORE ${PROJECT_SOURCE_DIR}/src/tinyxml)
+#include_directories(BEFORE ${PROJECT_SOURCE_DIR}/src/jsoncpp)
+include_directories(BEFORE ${PROJECT_SOURCE_DIR}/include/GL)
+include_directories(BEFORE ${PROJECT_SOURCE_DIR}/api-16)
 
-set(OCPNHDRS ocpninclude/ocpn_plugin.h ocpninclude/pluginmanager.h ocpninclude/TexFont.h)
 
-include_directories(BEFORE ${PROJECT_SOURCE_DIR}/ocpninclude)
-include_directories(BEFORE ${PROJECT_SOURCE_DIR}/ocpnsrc/glu/include)
 
-add_library(${PACKAGE_NAME} SHARED ${SRCS})
+##=============================================================
+add_library(${PACKAGE_NAME} SHARED ${SRCS} ${LIBHDRS})
+##=============================================================
 
 add_definitions(-DTIXML_USE_STL)
 
-
-
 ##
 ## ----- Change above to match project requirements ----- ##
-##
-
-##
 ## ----- do not change next section - needed to configure build process ----- ##
 ##
-
+##=============================================================
 include("PluginInstall")
 include("PluginLocalization")
 include("PluginPackage")
-
+##=============================================================
 ##
 ## ----- do not change section above - needed to configure build process ----- ##
 ##

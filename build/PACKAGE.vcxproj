@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -88,7 +88,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -140,7 +140,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpnsrc\glu\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\ocpninclude;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Mike\Documents\GitHub\oplaydo1_pi\api-16;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include\GL;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\build\CMakeFiles\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\include;C:\Users\Mike\Documents\GitHub\oplaydo1_pi\src;C:\wxWidgets-3.1.2\lib\vc_dll\mswu;C:\wxWidgets-3.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
