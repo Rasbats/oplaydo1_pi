@@ -1,5 +1,5 @@
 # oplaydo1
 
-This repository holds the project described in the tutorial here:
+This repository holds the project described here:
 
-https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:developer_manual:plugins:learning
+https://github.com/Rasbats/oplaydo1_pi/wiki
